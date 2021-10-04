@@ -1,6 +1,7 @@
 # Metode Pengembangan Perangkat Lunak 
 
-Metode Pengembangan Perangkat Lunak atau **MPPL** merupakan metode atau cara yang untuk melakukan pengembangan sebuah perangkat lunak, atau menurut _Roger S Pressman_ alur dari semua aktivitas, tindakan dan tugas, tingkat iterasi, produk kerja, dan organisasi pekerjaan yang harus dilakukan. <br> 
+Metode Pengembangan Perangkat Lunak atau **MPPL** merupakan metode atau cara yang untuk melakukan pengembangan sebuah perangkat lunak, atau menurut _Roger S Pressman_ alur dari semua aktivitas, tindakan dan tugas, tingkat iterasi, produk kerja, dan organisasi pekerjaan yang harus dilakukan. 
+<br> 
 ada beberapa metode yang bisa digunakan untuk melakukan pengembangan perangkat lunak, diantaranya :
 
 ## Metode Klasik
