@@ -1,46 +1,46 @@
-<h2>3 MPPL yang mewakili klasik maupun agile</h2>
-<h4>-Adaptive software development</h4>
-Adaptive Software Development (ASD) adalah metode yang diajukan oleh Jim Highsmith sebagai teknik untuk membangun software dan sistem yang kompleks. Filosofi yang mendasari metode ini adalah kolaborasi manusia dan tim yang mengatur diri sendiri.
+# Metode Pengembangan Perangkat Lunak 
 
-Aktifitas-aktifitas yang ada pada metode Adaptive Software Development (ASD) adalah ; Speculation, Collaboration dan Learning
+Metode Pengembangan Perangkat Lunak atau **MPPL** merupakan metode atau cara yang untuk melakukan pengembangan sebuah perangkat lunak, atau menurut _Roger S Pressman_ alur dari semua aktivitas, tindakan dan tugas, tingkat iterasi, produk kerja, dan organisasi pekerjaan yang harus dilakukan. <br> 
+ada beberapa metode yang bisa digunakan untuk melakukan pengembangan perangkat lunak, diantaranya :
 
-&bull;&ensp;Aktifitas Speculation : Adaptive cycle planning yaitu menggunakan informasi awal seperti misi dari klien, batasan proyek dan kebutuhan dasar untuk definisikan sebagai rangkaian kebutuhan perangkat lunak yang dilakukan dengan pendekatan increment (produk software yang diserahkan hasilnya secara berkala, tanpa menunggu produk tersebut jadi 100%)
+## Metode Klasik
 
-&bull;&ensp;Aktifitas Collaboration : orang-orang yang bermotivasi tinggi bekerja sama: saling melengkapi, rela membantu, kerja keras, trampil di bidangnya, dan komunikasikan masalah untuk hasilkan penyelesaian yang efektif.
+1. ### Model waterfall
 
-&bull;&ensp;Aktifitas Learning: tim pembangun sering merasa sudah tahu semua hal tentang proyek, padahal tidak selamanya begitu. Oleh karena itu diperlukan aktifitas pembelajaran didalam proses pengembangan perangkat lunak. Proses belajar tentang proyek perangkat lunak yang dikerjakan dapat dilakukan melalui 3 cara, antara lain :
+    Model waterfall atau sering kali disebut sebagai classic life cycle adalah model pengembangan perangkat lunak yang menekankan fase-fase yang berurutan dan sistematis, dimulai dari spesifikasi kebutuhan konsumen (communication) dan berkembang melalui proses perencanaan (planning), pemodelan (modelling), pembangunan (construction), dan penyebaran (deployment), yang berujung pada dukungan terus menerus untuk sebuah perangkat lunak yang utuh. <br>
+    Model ini dapat digunakan pada saat kebutuhan untuk sebuah masalah telah dipahami dengan baik, dan pekerjaan dapat mengalir secara linear dari proses komunikasi hingga penyebaran (deployment).
 
-&emsp;&emsp;&emsp;&loz;Focus group: klien dan pengguna memberi masukan terhadap software<br>
-&emsp;&emsp;&emsp;&loz;Formal Technique Reviews: Tim pengembang selalu melakukan review<br>
-&emsp;&emsp;&emsp;&loz;Postmortems: Tim pengembang melakukan instrospeksi pada kinerja dan proses.<br>
+2. ### Model Incremental
 
-
-<h4>-Agile Modeling (AM)</h4>
-Agile Modeling adalah suatu metodologi yang praktis untuk proses dokumentasi dan pemodelan sistem perangkat lunak. Agile Modeling sendiri adalah kumpulan nilai-nilai, prinsip dan praktek-praktek untuk memodelkan perangkat lunak agar dapat diaplikasian pada proyek pengembangan perangkat lunak secara efektif dan efisien.
-
-Prinsip dalam Agile Modeling antara lain :
-
-&bull;&ensp;Membuat model dengan tujuan: tentukan tujuan sebelum membuat model.<br>
-&bull;&ensp;Mengunakan multiple models: tiap model mewakili aspek yang berbeda dari model lain.<br>
-&bull;&ensp;Travel light: simpan model-model yang bersifat jangka panjang saja.<br>
-&bull;&ensp;Isi lebih penting dari pada penampilan: modeling menyajikan informasi kepada audiens
-yang tepat.<br>
-&bull;&ensp;Memahami model dan alat yang yang digunakan untuk membuat software.<br>
-&bull;&ensp;Adaptasi secara lokal.<br>
-Dengan menggunakan Agile Modeling, diharapkan tim pengembang (developer) dapat fokus pada prinsip dan praktek pemodelan yang efektif.
+    Model Incremental adalah metode pengembangan perangkat lunak di mana produk dirancang, diimplementasikan, dan diuji secara bertahap hingga produk selesai. Model ini menggabungkan elemen-elemen model waterfall dengan filosofi iteratif dari prototyping.
 
 
-<h4>-Waterfall Model</h4>
-Waterfall Model yakni sebuah desain  proses yang sequensial (berurutan) yang dalam progressnya terlihat seperti aliran air ter-jun (waterfall) dari proses perancangan konsep, inisialisasi project, alanisis, desain, pembuatan system (coding), testing, produksi/implementasi dan perawatan (maintenance).<br>
+3. ### Model Spiral
 
-Beberapa prinsip utama dari model ini yakni:<br>
-• Project dibagi-bagi dalam beberapa fase yang saling berurutan.<br>
-• Penekanan  pada  perencanaan,   jadwal  (schedule), deadline, budget, dan implementasi keseluruhan sis-
-tem sekaligus.<br>
-• Kontrol yang ketat dalam siklus hidup project dengan menggunakan bantuan dokumentasi tertulis.<br>
+    model spiral adalah model proses perangkat lunak evolusioner yang menggabungkan sifat iteratif dari prototyping dengan aspek yang terkontrol dan sistematis dari waterfall
+    model. Ini memberikan potensi untuk pengembangan yang semakin cepat banyak versi lengkap dari perangkat lunak.
 
-Kelebihan dari metode ini yakni:<br>
-• Mudah dimengerti, mudah digunakan.<br>
-• Requirement dari sistem bersifat stabil.<br>
-• Baik dalam manajemen kontrol.<br>
-• Bekerja dengan baik ketika kualitas lebih diutamakan dibandingkan dengan biaya dan jadwal (deadline).<br>
+#
+
+## Metode Agile 
+
+1. ### XP atau Extreme Programming
+
+    Extreme Programming menggunakan pendekatan berorientasi objek sebagai paradigma pengembangan yang disukai dan mencakup seperangkat _rules_ dan praktik yang
+    terjadi dalam konteks empat kegiatan kerangka kerja: _planning_, _design_, _coding_, dan _testing_.
+
+2. ### Metode Scrum
+
+    Metode Scrum merupakan metode pengembangan perangkat lunak turunan dari metode agile. Metode scrum merupakan suatu kerangka kerja yang menggunakan pendekatan iterative dan incremental seperti yang ada pada metode RAD. <br>
+    Metode Scrum ini ditujukan untuk menghasilkan produk bernilai tinggi, unik, sekaligus produktif.
+    Berbeda dengan metode Waterfall yang memakai pendekatan sistematis. <br>
+    Scrum diaplikasikan dengan lima tahapan yang bersifat imperative dan incremental. Untuk itu, kerangka kerja scrum melibatkan beberapa tim yang saling bersinergi.
+    Kerangka kerja scrum membagi proses pengembangan menjadi target-target kecil yang dinyatakan dalam satuan _sprint_ .
+    Pengembangan dimulai dengan merumuskan target sprint prioritas dari setiap tim. Diikuti dengan identifikasi pekerjaan spesifik serta proses pengerjaan sesuai target sprint yang telah ditentukan.
+    Setiap sprint berakhir, tim yang terlibat selalu menyampaikan hasil pekerjaannya. Tahapan ini juga mencakup evaluasi menyeluruh dan perumusan ide-ide baru yang mungkin bisa diterapkan pada sprint berikutnya.
+
+3. ### Dynamic Systems Development Method (DSDM)
+
+    Metode Pengembangan Sistem Dinamis atau (DSDM) adalah pendekatan pengembangan perangkat lunak agile yang “menyediakan kerangka kerja untuk membangun dan memelihara sistem yang memenuhi batasan waktu yang ketat melalui penggunaan inkremental membuat prototipe dalam lingkungan proyek yang terkendali”.
+    Filosofi DSDM diadopsi dari versi modifikasi prinsip Pareto—80 persen dari aplikasi dapat dikirimkan dalam 20 persen dari waktu yang diperlukan untuk mengirimkan
+    aplikasi lengkap (100 persen).
